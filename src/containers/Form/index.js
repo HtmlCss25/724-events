@@ -4,10 +4,6 @@ import Field, { FIELD_TYPES } from "../../components/Field";
 import Select from "../../components/Select";
 import Button, { BUTTON_TYPES } from "../../components/Button";
 
-<<<<<<< HEAD
-=======
-const mockContactApi = () => new Promise((resolve) => { setTimeout(resolve, 500); })
->>>>>>> c898a65ed722cfd485cb36d94c93b3a1f8efbaa0
 
 const Form = ({ onSuccess, onError }) => {
   const mockContactApi = () => new Promise((resolve) => { setTimeout(resolve, 1000); })
